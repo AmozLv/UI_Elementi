@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 9cd4b1c38d67c17488281e0f910fc3b3
+timeCreated: 1681894625
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: QDBetterComicSansAlternates
+  fontNames:
+  - QDBetterComicSansAlternates
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
