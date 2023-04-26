@@ -12,6 +12,8 @@ public class AtteluParadisana : MonoBehaviour {
 	public GameObject paLabiPoga;
 	public GameObject mainigaisAttels;
 	public Sprite[] atteluMasivs;
+	public GameObject izmSlaideris;
+	public GameObject rotSlaideris;
 
 	public void binaAttelosana(bool vertiba){
 		binsImg.SetActive (vertiba);
@@ -41,5 +43,13 @@ public class AtteluParadisana : MonoBehaviour {
 		else if (sk == 1)	mainigaisAttels.GetComponent<Image> ().sprite = atteluMasivs [1];
 		else if (sk == 2)	mainigaisAttels.GetComponent<Image> ().sprite = atteluMasivs [2];
 		else Debug.Log ("Nav piesaistīts attēls");
+	}
+	public void mainitLielumu(){
+		float pasreizejaVertiba = izmSlaideris.GetComponent<Slider>().value;
+		mainigaisAttels.transform.localScale = new Vector2 (1f * pasreizejaVertiba, 1f * pasreizejaVertiba);
+	}
+	public void mainitRotaciju(){
+		float pasreizejaVertiba = rotSlaideris.GetComponent<Slider>().value;
+		mainigaisAttels.transform.localRotation = Quaternion.Euler(0 , 0, pasreizejaVertiba*360);
 	}
 }
