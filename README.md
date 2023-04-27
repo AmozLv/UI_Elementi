@@ -13,9 +13,9 @@ UI elementu veidosana un darbosanas ar tiem MR. Bean
 - [x] Toggle Goup komponentes lietojums
 - [x] Drop down elementa lietojums
 - [x] Slider elementu lietojums
-- [ ] Audio source integrēšana ainā
-- [ ] Scroll view elementa lietošana
-- [ ] Drag and drop funkcionalitātes ieviešana
-- [ ] Pārslēgšanās starp ainām
-- [ ] Objektu ģenerēšana
-- [ ] Projekta sagatavošana darbināšanai no darbvirsmas (.exe)
+- [x] Audio source integrēšana ainā
+- [x] Scroll view elementa lietošana
+- [x] Drag and drop funkcionalitātes ieviešana
+- [x] Pārslēgšanās starp ainām
+- [x] Objektu ģenerēšana
+- [x] Projekta sagatavošana darbināšanai no darbvirsmas (.exe)
